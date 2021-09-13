@@ -14,7 +14,7 @@ app.use(cors());
 
 const { MongoClient } = require("mongodb");
 const uri =
-  "mongodb+srv://Boss:hemal001@cluster0.pec8g.mongodb.net/we-talk?retryWrites=true&w=majority";
+  "?retryWrites=true&w=majority";
 const client = new MongoClient(uri, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
